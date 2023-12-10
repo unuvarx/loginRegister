@@ -1,0 +1,16 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import 'flowbite/dist/flowbite.css';
+
+body {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+}
+* {
+  background-color: var(--background-color);
+  font-family: century gothic;
+  transition: all 0.2s;
+}
