@@ -89,7 +89,7 @@ export default function SignIn() {
             </a>
           </label>
         </div>
-        {errors.phoneNumber ? "numara" : errors.password ? "password" : errors.agreement ? "checkbox" : "yok"}
+        
       </div>
     </form>
   );
