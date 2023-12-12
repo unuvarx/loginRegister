@@ -222,13 +222,7 @@ export default function Login() {
             </button>
           </div>
         </div>
-        {formik.errors.language
-          ? "language"
-          : formik.errors.email
-          ? "email"
-          : formik.errors.password
-          ? "password"
-          : "yok"}
+        
       </div>
     </form>
   );

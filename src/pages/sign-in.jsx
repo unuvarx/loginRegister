@@ -84,7 +84,7 @@ export default function SignIn() {
             className="text-[rgba(4,3,69,.4)] tracking-[-.16px] text-[16px] mb-3"
           >
             Hesabın yok mu?
-            <a src="" className="font-bold text-green ml-[8px] cursor-pointer ">
+            <a href="/register" className="font-bold text-green ml-[8px] cursor-pointer ">
               Hemen Kaydol
             </a>
           </label>

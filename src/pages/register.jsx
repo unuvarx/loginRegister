@@ -177,6 +177,7 @@ export default function register() {
             />
           </div>
         </div>
+      <span className="m-[3rem]">Zaten üye misiniz? <a href="/sign-in" className="text-green font-bold">Giriş Yap</a></span>
       </div>
     </form>
   );
